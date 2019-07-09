@@ -1,0 +1,42 @@
+.container{
+    .nav-left{
+        height: calc(100vh);
+        background-color: #001529;
+    }
+    .main {
+        height: calc(100vh);
+        background-color: #f1f3f5;
+    }
+    .content {
+        position: relative;
+        padding: 20px;
+    }
+}
+
+.content-wrap {
+    background-color: #ffffff;
+    margin-top: 10px;
+    border: 1px solid #e8e8e8;
+    .ant-table-wrapper {
+        margin: -1px -2px 0 -1px;
+    }
+}
+
+ul,li {
+    list-style: none;
+}
+
+.clearfix {
+    &::after {
+        content: '';
+        clear: both;
+        display: block;
+        visibility: hidden;
+    }
+}
+
+.operate-wrap {
+    button {
+        margin-right: 10px;
+    }
+}
